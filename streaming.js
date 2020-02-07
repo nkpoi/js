@@ -1,4 +1,4 @@
-<script type='text/javascript'>//<![CDATA[
+
 // Light Button
 $(document).ready(function(){$("#lightsoff").css("height", $(document).height()).hide();$(".lightSwitcher").click(function(){$("#lightsoff").toggle();if ($("#lightsoff").is(":hidden"))$(this).html("Turn off the Lights").removeClass("turnedOff");else $(this).html("Turn on the Lights").addClass("turnedOff");});});
 // Streaming
@@ -11,4 +11,3 @@ $('b[name="coverxz"]').before($("#iamgex-cover").html());$("#iamgex-cover").html
   })
  }());
 });
-//]]></script>
